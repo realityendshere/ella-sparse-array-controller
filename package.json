@@ -1,6 +1,6 @@
 {
   "name": "ella-sparse-array-controller",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Sparse array controller for fetching large collections of records a few at a time.",
   "directories": {
     "doc": "doc",
