@@ -685,7 +685,7 @@ EmberellaSparseArray = Ember.ArrayProxy.extend Ember.ControllerMixin,
     sparseContent = get(@, 'sparseContent')
     return unless sparseContent and Ember.typeOf sparseContent is 'array'
     item = sparseContent[idx]
-    item.isStale = false if item and item.isStale
+    set(item, 'isStale', false) if item and get(item, 'isStale')
     item
 
   ###
