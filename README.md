@@ -1,25 +1,8 @@
-# Ella-sparse-array-controller
+# Emberella Sparse Array Controller...
 
-This README outlines the details of collaborating on this Ember addon.
+...is no longer maintained. It uses design patterns that do not work very
+nicely with Ember v1.13 and v2.0.
 
-## Installation
+Please take a look at Ember Sparse Array (in development) instead: https://github.com/realityendshere/ella-sparse-array
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
-
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+It's a non-controller sparse array library.
